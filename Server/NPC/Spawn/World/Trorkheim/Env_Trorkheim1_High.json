@@ -1,0 +1,55 @@
+{
+  "Environments": [
+    "Env_Trorkheim1_High"
+  ],
+  "NPCs": [
+    {
+      "Id": "Trork_Brawler",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Warrior",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Sentry",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Hunter",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Shaman",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Guard",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Sentry",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Mauler",
+      "Weight": 1
+    },
+    {
+      "Id": "Trork_Chieftain"
+    }
+  ],
+  "LightRanges": {
+    "Light": [
+      0,
+      10
+    ]
+  },
+  "MoonPhaseWeightModifiers": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ]
+}

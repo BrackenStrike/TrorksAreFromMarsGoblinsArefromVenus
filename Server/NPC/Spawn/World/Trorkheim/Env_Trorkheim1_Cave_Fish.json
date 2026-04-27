@@ -1,0 +1,26 @@
+{
+  "Environments": [
+    "Env_Trorkheim1_Low"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "Id": "Jellyfish_Cyan",
+      "Flock": "Group_Small",
+      "SpawnFluidTag": "Water"
+    },
+    {
+      "Weight": 5,
+      "Id": "Trilobite",
+      "SpawnFluidTag": "Water"
+    },
+    {
+      "Id": "Catfish",
+      "Weight": 1
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    24
+  ]
+}

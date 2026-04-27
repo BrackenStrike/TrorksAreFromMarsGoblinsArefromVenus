@@ -1,0 +1,70 @@
+{
+  "MaxFluidLevel": 1,
+  "Effect": [
+    "Lava"
+  ],
+  "Opacity": "Solid",
+  "Textures": [
+    {
+      "Weight": 1,
+      "All": "BlockTextures/Fluid_Quicksilver.png"
+    }
+  ],
+  "BlockParticleSetId": "Water",
+  "ParticleColor": "#6f6f6f",
+  "BlockSoundSetId": "Mud",
+  "FluidFXId": "Quicksilver",
+  "Interactions": {
+    "Collision": {
+      "Cooldown": {
+        "Id": "BurnEffect",
+        "Cooldown": 1
+      },
+      "Interactions": [
+        {
+          "Type": "Condition",
+          "RequiredGameMode": "Adventure",
+          "Next": {
+            "Type": "ApplyEffect",
+            "EffectId": {
+              "Duration": 1,
+              "OverlapBehavior": "Overwrite",
+              "ApplicationEffects": {
+                "HorizontalSpeedMultiplier": 0.5
+              }
+            },
+            "Next": {
+              "Type": "ApplyEffect",
+              "EffectId": "Poison_Swim"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Ticker": {
+    "CanDemote": false,
+    "SpreadFluid": "Quicksilver",
+    "Collisions": {
+     
+      "Lava_Source": {
+        "BlockToPlace": "Metal_Copper",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      
+      
+      
+      "Plasma_Source": {
+        "BlockToPlace": "Rock_Gold_Brick",
+        "SoundEvent": "SFX_Flame_Break"
+      }
+      
+      
+    }
+  },
+  "Tags": {
+    "Fluid": [
+      "Poison"
+    ]
+  }
+}

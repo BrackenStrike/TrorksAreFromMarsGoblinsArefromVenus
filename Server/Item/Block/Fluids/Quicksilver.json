@@ -1,0 +1,8 @@
+{
+  "Parent": "Quicksilver_Source",
+  "MaxFluidLevel": 8,
+  "Ticker": {
+    "CanDemote": true,
+    "SupportedBy": "Quicksilver_Source"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Environments": [
+    "Env_Goblinheim1_Low"
+  ],
+  "NPCs": [
+    {
+      "Id": "Larva_Silk",
+      "Weight": 1
+    },
+    {
+      "Id": "Scorpion",
+      "Weight": 5
+    },
+    {
+      "Id": "Stratus_Whale",
+      "Weight": 1
+    },
+    {
+      "Weight": 10,
+      "Id": "Goblin_Scavenger"
+    },
+    {
+      "Id": "Arcus_Fish",
+      "Weight": 10
+    },
+    {
+      "Weight": 5,
+      "Id": "Cirrus_Shark"
+    }
+  ],
+  "LightRanges": {
+    "Light": [
+      0,
+      10
+    ]
+  },
+  "MoonPhaseWeightModifiers": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ]
+}

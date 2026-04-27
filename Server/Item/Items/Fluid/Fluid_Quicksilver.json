@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "Fluid_Quicksilver"
+  },
+  "Icon": "Icons/ItemsGenerated/Fluid_Quicksilver.png",
+  "Categories": [
+    "Blocks.Fluids"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "PlaceFluid",
+          "FluidToPlace": "Quicksilver_Source"
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Effect": [
+      "Water"
+    ],
+    "Opacity": "Transparent",
+    "Group": "Fluid_Water",
+    "Flags": {},
+    "BlockParticleSetId": "Water",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Fluid_Quicksilver.png"
+      }
+    ],
+    "BlockSoundSetId": "Water"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Material": [
+      "Fluid"
+    ]
+  },
+  "MaxStack": 1
+}

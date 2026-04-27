@@ -1,0 +1,52 @@
+{
+  "MaxFluidLevel": 1,
+  "Effect": [
+    "Slime"
+  ],
+  "Opacity": "Transparent",
+  "BlockParticleSetId": "Tar",
+  "Textures": [
+    {
+      "Weight": 1,
+      "All": "BlockTextures/Fluid_Tar.png"
+    }
+  ],
+  "ParticleColor": "#725650",
+  "BlockSoundSetId": "Mud",
+  "FluidFXId": "Water",
+  "Ticker": {
+    "CanDemote": false,
+    "SpreadFluid": "Tar",
+    "FlowRate": 12.0,
+    "Collisions": {
+      
+      "Plasma": {
+        "BlockToPlace": "Rock_Slate_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Plasma_Source": {
+        "BlockToPlace": "Empty",
+        "SoundEvent": "SFX_Flame_Break"
+      },      
+      "Lava": {
+        "BlockToPlace": "Rock_Shale_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Lava_Source": {
+        "BlockToPlace": "Rock_Volcanic_Cracked_Lava",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Quicksilver_Source": {
+        "BlockToPlace": "Metal_Bronze",
+        "SoundEvent": "SFX_Flame_Break"
+      }
+      
+     
+    }
+  },
+  "Tags": {
+    "Fluid": [
+      "Tar"
+    ]
+  }
+}

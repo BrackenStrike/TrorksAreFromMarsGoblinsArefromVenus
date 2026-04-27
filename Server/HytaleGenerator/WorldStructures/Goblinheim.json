@@ -1,0 +1,60 @@
+
+{
+  "Type": "NoiseRange",
+  "Biomes": [],
+  "DefaultBiome": "Bio_Goblinheim1",
+  "DefaultTransitionDistance": 32,
+  "MaxBiomeEdgeDistance": 32,
+  "Density": {
+    "Type": "Imported",
+    "Name": "Biome-Map"
+  },
+ "Framework" : [
+    {
+      "Type" : "Positions",
+      "Entries" : [
+        {
+          "Name" : "Spawns",
+          "Positions" : {
+            "Type" : "List",
+            "ExportAs" : "Spawns",
+            "Positions": [
+              {
+                "X": 0,
+                "Y": 200,
+                "Z": 0
+              },
+              {
+                "X": 30,
+                "Y": 200,
+                "Z": 0
+              },
+              {
+                "X": 10,
+                "Y": 200,
+                "Z": 20
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type" : "DecimalConstants",
+      "Entries" : [
+        {
+          "Name" : "Base",
+          "Value" : 50
+        },
+        {
+          "Name" : "Water",
+          "Value" : 50
+        },
+        {
+          "Name" : "Bedrock",
+          "Value" : 0
+        }
+      ]
+    }
+  ]
+}

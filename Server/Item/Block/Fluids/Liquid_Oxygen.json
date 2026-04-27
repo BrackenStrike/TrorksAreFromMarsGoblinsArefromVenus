@@ -1,0 +1,8 @@
+{
+  "Parent": "Liquid_Oxygen_Source",
+  "MaxFluidLevel": 8,
+  "Ticker": {
+    "CanDemote": true,
+    "SupportedBy": "Liquid_Oxygen_Source"
+  }
+}

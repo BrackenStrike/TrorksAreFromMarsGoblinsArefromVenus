@@ -1,0 +1,81 @@
+{
+  "MaxFluidLevel": 1,
+  "Effect": [
+    "Lava"
+  ],
+  "Opacity": "Transparent",
+  "Textures": [
+    {
+      "Weight": 1,
+      "All": "BlockTextures/Fluid_Poison.png"
+    }
+  ],
+  "BlockParticleSetId": "Water",
+  "ParticleColor": "#04ff00",
+  "BlockSoundSetId": "Mud",
+  "FluidFXId": "Lava",
+  "Light": {
+    "Color": "#080"
+  },
+  "Interactions": {
+    "Collision": {
+      "Cooldown": {
+        "Id": "BurnEffect",
+        "Cooldown": 1
+      },
+      "Interactions": [
+        {
+          "Type": "Condition",
+          "RequiredGameMode": "Adventure",
+          "Next": {
+            "Type": "ApplyEffect",
+            "EffectId": {
+              "Duration": 1,
+              "OverlapBehavior": "Overwrite",
+              "ApplicationEffects": {
+                "HorizontalSpeedMultiplier": 0.5
+              }
+            },
+            "Next": {
+              "Type": "ApplyEffect",
+              "EffectId": "Poison_Swim"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Ticker": {
+    "CanDemote": false,
+    "SpreadFluid": "Poison",
+    "FlowRate": 2.0,
+    "Collisions": {
+      
+      "Plasma": {
+        "BlockToPlace": "Rock_Marble_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Plasma_Source": {
+        "BlockToPlace": "Empty",
+        "SoundEvent": "SFX_Flame_Break"
+      },      
+      "Lava": {
+        "BlockToPlace": "Rock_Lime_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Lava_Source": {
+        "BlockToPlace": "Rock_Volcanic_Cracked_Poisoned",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Quicksilver_Source": {
+        "BlockToPlace": "Metal_Zinc",
+        "SoundEvent": "SFX_Flame_Break"
+      }
+    }
+  },
+  "Tags": {
+    "Fluid": [
+      "Poison"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "Fluid_Plasma"
+  },
+  "Icon": "Icons/ItemsGenerated/Fluid_Plasma.png",
+  "Categories": [
+    "Blocks.Fluids"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "PlaceFluid",
+          "FluidToPlace": "Plasma_Source"
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Effect": [
+      "Water"
+    ],
+    "Opacity": "Transparent",
+    "Group": "Fluid_Water",
+    "Flags": {},
+    "BlockParticleSetId": "Water",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Fluid_Plasma.png"
+      }
+    ],
+    "BlockSoundSetId": "Water"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Material": [
+      "Fluid"
+    ]
+  },
+  "MaxStack": 1
+}

@@ -1,0 +1,539 @@
+{
+  "WaterTint": "#198dea",
+  "SpawnDensity": 0.4,
+  "Tags": {
+    "Zone2": [
+      "Oasis"
+    ]
+  },
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Wea_Trorkheim_Haze",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_UV_Rain",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Mars_Storm",
+        "Weight": 10
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Normal",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Wea_Trorkheim_Warm",
+        "Weight": 30
+      }
+    ]
+  }
+}

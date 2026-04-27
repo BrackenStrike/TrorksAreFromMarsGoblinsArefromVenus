@@ -1,0 +1,8 @@
+{
+  "Parent": "Plasma_Source",
+  "MaxFluidLevel": 8,
+  "Ticker": {
+    "CanDemote": true,
+    "SupportedBy": "Plasma_Source"
+  }
+}

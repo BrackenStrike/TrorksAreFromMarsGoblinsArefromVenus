@@ -1,0 +1,94 @@
+{
+  "MaxFluidLevel": 1,
+  "Effect": [
+    "Lava"
+  ],
+  "Opacity": "Transparent",
+  "Textures": [
+    {
+      "Weight": 1,
+      "All": "BlockTextures/Fluid_Plasma.png"
+    }
+  ],
+  "BlockParticleSetId": "Water",
+  "ParticleColor": "#ff009a",
+  "BlockSoundSetId": "Mud",
+  "FluidFXId": "Plasma",
+  "Light": {
+    "Color": "#f2c",
+    "Radius": 10
+  },
+  "Interactions": {
+    "Collision": {
+      "Cooldown": {
+        "Id": "BurnEffect",
+        "Cooldown": 1
+      },
+      "Interactions": [
+        {
+          "Type": "Condition",
+          "RequiredGameMode": "Adventure",
+          "Next": {
+            "Type": "ApplyEffect",
+            "EffectId": {
+              "Duration": 1,
+              "OverlapBehavior": "Overwrite",
+              "ApplicationEffects": {
+                "HorizontalSpeedMultiplier": 0.5
+              }
+            },
+            "Next": {
+              "Type": "ApplyEffect",
+              "EffectId": "Plasma_Swim"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Ticker": {
+    "CanDemote": false,
+    "SpreadFluid": "Plasma",
+    
+    "Collisions": {
+     "Water": {
+        "BlockToPlace": "Rock_Basalt_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Water_Source": {
+        "BlockToPlace": "Rock_Basalt",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Tar": {
+        "BlockToPlace": "Rock_Slate_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Tar_Source": {
+        "BlockToPlace": "Rock_Slate",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Liquid_Oxygen": {
+        "BlockToPlace": "Rock_Quartzite_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Liquid_Oxygen_Source": {
+        "BlockToPlace": "Rock_Quartzite",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      
+      "Poison": {
+        "BlockToPlace": "Rock_Marble_Cobble",
+        "SoundEvent": "SFX_Flame_Break"
+      },
+      "Poison_Source": {
+        "BlockToPlace": "Rock_Marble",
+        "SoundEvent": "SFX_Flame_Break"
+      }
+    }
+  },
+  "Tags": {
+    "Fluid": [
+      "Poison"
+    ]
+  }
+}

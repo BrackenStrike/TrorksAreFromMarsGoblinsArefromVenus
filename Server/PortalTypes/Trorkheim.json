@@ -1,0 +1,17 @@
+{
+  "InstanceId": "Trorkheim",
+  "Description": {
+    "DisplayName": "Portal to Mars",
+    "FlavorText": "Homeworld of the Trorks!",
+    "ThemeColor": "#cc620cff",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": []
+  },
+  "PlayerSpawn": {
+    "Y": 135,
+    "ScanHeight": 60,
+    "MinRadius": 4000,
+    "MaxRadius": 4000,
+    "ChunkDartThrows": 35
+  }
+}

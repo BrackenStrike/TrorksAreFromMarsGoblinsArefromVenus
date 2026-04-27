@@ -1,0 +1,14 @@
+{
+  "Parent": "Poison",
+  "ApplicationEffects": {
+    "ScreenEffect": "ScreenEffects/Poison_T1.png"
+  },
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Poison": 4
+    }
+  },
+  "DamageCalculatorCooldown": 4,
+  "Duration": 48,
+  "OverlapBehavior": "Ignore"
+}

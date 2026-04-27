@@ -1,0 +1,251 @@
+{
+  "WaterTint": "#f8f350",
+  "SpawnDensity": 0.9,
+  "Tags": {
+    "Zone1": [
+      "Swamps"
+    ]
+  },
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 15
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Base",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Wea_Goblinheim1_High_Rain",
+        "Weight": 50
+      }
+    ]
+  }
+}

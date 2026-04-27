@@ -1,0 +1,52 @@
+{
+  "Environments": [
+    "Env_Goblinheim1_High"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "Id": "Goblin_Hermit"
+    },
+    {
+      "Id": "Goblin_Miner",
+      "Weight": 10
+    },
+    {
+      "Weight": 1,
+      "Id": "Goblin_Duke"
+    },
+    {
+      "Weight": 2,
+      "Id": "Goblin_Ogre"
+    },
+    {
+      "Id": "Goblin_Thief",
+      "Weight": 5
+    },
+    {
+      "Id": "Goblin_Lobber",
+      "Weight": 5
+    },
+    {
+      "Id": "Goblin_Scavenger",
+      "Weight": 5
+    },
+    {
+      "Id": "Goblin_Scrapper",
+      "Weight": 5
+    }
+  ],
+  "LightRanges": {
+    "Light": [
+      0,
+      10
+    ]
+  },
+  "MoonPhaseWeightModifiers": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ]
+}

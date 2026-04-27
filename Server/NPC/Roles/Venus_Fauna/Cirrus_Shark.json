@@ -1,0 +1,24 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Birds_Passive",
+  "Modify": {
+    "Appearance": "Shark_Hammerhead",
+    "FlockArray": [
+      "Pterodactyl"
+    ],
+    "DropList": "Drop_Shark_Hammerhead",
+    "MaxHealth": 145,
+    "WanderRadius": 25,
+    "IsMemory": true,
+    "MemoriesCategory": "Avian",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Pterodactyl.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

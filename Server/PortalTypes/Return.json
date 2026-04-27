@@ -1,0 +1,17 @@
+{
+  "InstanceId": "Default",
+  "Description": {
+    "DisplayName": "Portal Back Home",
+    "FlavorText": "Return Home",
+    "ThemeColor": "#16c0c2",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": []
+  },
+  "PlayerSpawn": {
+    "Y": 115,
+    "ScanHeight": 60,
+    "MinRadius": 4000,
+    "MaxRadius": 4000,
+    "ChunkDartThrows": 35
+  }
+}

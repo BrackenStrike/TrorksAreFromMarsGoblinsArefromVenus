@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "Fluid_Liquid_Oxygen"
+  },
+  "Icon": "Icons/ItemsGenerated/Fluid_Liquid_Oxygen.png",
+  "Categories": [
+    "Blocks.Fluids"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "PlaceFluid",
+          "FluidToPlace": "Liquid_Oxygen_Source"
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Effect": [
+      "Water"
+    ],
+    "Opacity": "Transparent",
+    "Group": "Fluid_Water",
+    "Flags": {},
+    "BlockParticleSetId": "Water",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Fluid_Liquid_Oxygen.png"
+      }
+    ],
+    "BlockSoundSetId": "Water"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Material": [
+      "Fluid"
+    ]
+  },
+  "MaxStack": 1
+}

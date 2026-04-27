@@ -1,0 +1,36 @@
+{
+  "Environments": [
+    "Env_Trorkheim1_High"
+  ],
+  "NPCs": [
+    {
+      "Id": "Bunny",
+      "Weight": 4
+    },
+    {
+      "Id": "Boar",
+      "Weight": 3
+    },
+    {
+      "Id": "Wolf_White",
+      "Weight": 1
+    },
+    {
+      "Id": "Ram",
+      "Weight": 1
+    }
+  ],
+  "LightRanges": {
+    "Light": [
+      0,
+      7
+    ]
+  },
+  "MoonPhaseWeightModifiers": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ]
+}
