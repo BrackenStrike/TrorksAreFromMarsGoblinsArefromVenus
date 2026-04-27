@@ -1,0 +1,19 @@
+{
+  "Group": "Bracken",
+  "Name": "Trorks Are from Mars",
+  "Version": "1.0.0",
+  "Description": "Interplanetary Fantasy",
+  "Authors": [{
+      "Name": "Bracken",
+      "Email": "brackenstrike@gmail.com",
+      "Url": ""
+    }],
+  "Website": "",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
